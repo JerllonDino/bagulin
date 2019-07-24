@@ -1,0 +1,51 @@
+.bg-body {
+background:#F3F2F7;
+}
+.bg-dark {
+	background: #1B2545 !important; 
+}
+.bg-primary {
+	background: #A52637 !important;
+}
+
+#banner {
+	width: 100%;
+	line-height: 100px;
+	background: url('../img/bagulin.jpg');
+	background-size: cover;
+	background-position:center;
+	position: relative;
+	z-index: 1;
+}
+#overlay {
+	background: #A52637;
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+#masthead {
+	position: relative;
+	z-index: 3;
+	vertical-align: middle;
+}
+
+#anouncements .list-group-item{
+	background: transparent;
+	border-color: transparent;
+	padding:0px 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	color: #1B2545 !important;
+	border-radius: 0px;
+}
+#anouncements .list-group-item h6 {
+	color: #A52637;
+}
+
+.carousel-control-next {
+	opacity: 0.9;
+}
